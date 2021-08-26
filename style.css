@@ -5,7 +5,7 @@ body{
     flex-direction: column;
     align-items: center;
     font-family: 'Kumbh Sans', sans-serif;
-    background-image: url("images/bg-pattern-top.svg"),url("images/bg-pattern-bottom.svg");
+    background-image: url("bg-pattern-top.svg"),url("bg-pattern-bottom.svg");
     background-color: hsl(185, 75%, 39%);
     background-repeat: no-repeat,no-repeat;
     background-position: -300px -500px , 600px 300px;
@@ -31,7 +31,7 @@ body{
     
 }
 .bg-img{
-    background-image: url(images/bg-pattern-card.svg);
+    background-image: url(bg-pattern-card.svg);
     background-repeat: no-repeat;
     background-size: cover;
     padding:10px 10px 19px 10px;
