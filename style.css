@@ -5,7 +5,7 @@ body{
     flex-direction: column;
     align-items: center;
     font-family: 'Kumbh Sans', sans-serif;
-    background-image: url("bg-pattern-top.svg"),url("bg-pattern-bottom.svg");
+    background-image: url("images/bg-pattern-top.svg"),url("images/bg-pattern-bottom.svg");
     background-color: hsl(185, 75%, 39%);
     background-repeat: no-repeat,no-repeat;
     background-position: -300px -500px , 600px 300px;
@@ -15,12 +15,11 @@ body{
    flex-direction: column;
    margin: 120px;
    text-align: center;
-   /* align-items: center; */
    background-color: white;
    border-bottom-left-radius: 20px;
    border-bottom-right-radius: 20px;
    border-top-left-radius: 20px;
-   border-top-right-radius: 20px;
+   border-top-right-radius: 20px; 
 
 }
 .center{
@@ -31,7 +30,7 @@ body{
     
 }
 .bg-img{
-    background-image: url(bg-pattern-card.svg);
+    background-image: url(images/bg-pattern-card.svg);
     background-repeat: no-repeat;
     background-size: cover;
     padding:10px 10px 19px 10px;
@@ -45,9 +44,7 @@ img {
     position: relative;
     bottom: -80px;
   }
-.item{
-    display: flex;
-    flex-direction: column;
+.flex_item{
     padding: 30px;
     margin: 0px;
 }
@@ -71,8 +68,7 @@ p{
 }
 
 @media screen and (max-width:500px){
-    .container
-    {
+    .container{
         flex-direction: column;
     }
 }
